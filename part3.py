@@ -20,7 +20,6 @@ Not divisible by 3
 '''
 
 
-#write your code below
 number = int(input("Enter an integer: "))
 divisible = number % 3
 
