@@ -22,4 +22,22 @@ Enter a month:  Saturday
 not a month
 '''
 
-#start writing your code below
+
+month = input("Enter the name of a month: ")
+
+thirtyone = ["January", "january", "March", "march", "May", "may", "July", "july", 
+             "August", "august", "October", "october", "December", "december"]
+thirty = ["April", 'april', "June", "june", "September", "september", "Novemeber",  
+          "november"]
+
+if month in thirtyone:
+  print("There are 31 days in this month.")
+
+elif month in thirty:
+  print("There are thirty days in this month.")
+
+elif month == "February" or month == "february":
+  print("There are 28 days in this month normally, and 29 days on leap years.")
+
+else:
+  print ("That is not a valid month.")
